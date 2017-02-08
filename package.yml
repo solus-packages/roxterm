@@ -1,9 +1,10 @@
 name       : roxterm
 version    : 3.3.2
-release    : 3
+release    : 4
 source     :
     - http://heanet.dl.sourceforge.net/project/roxterm/roxterm/3.3.2/roxterm-3.3.2.tar.xz : 33501d698971fe80e2756104ffa5541aff23f0ae2b718464006d912ac93c506e
 license    : GPL-2.0
+component  : desktop
 summary    : A tabbed, vte- (GTK+) based terminal emulator
 description: |
     A tabbed, vte- (GTK+) based terminal emulator providing advanced features such as multiple tabs with a small footprint.

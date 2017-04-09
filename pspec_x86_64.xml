@@ -2,10 +2,11 @@
     <Source>
         <Name>roxterm</Name>
         <Packager>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-2.0</License>
+        <PartOf>desktop</PartOf>
         <Summary xml:lang="en">A tabbed, vte- (GTK+) based terminal emulator</Summary>
         <Description xml:lang="en">A tabbed, vte- (GTK+) based terminal emulator providing advanced features such as multiple tabs with a small footprint.
 </Description>
@@ -19,22 +20,22 @@
         <PartOf>desktop</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="data">/usr/share/appdata</Path>
-            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="data">/usr/share/appdata/roxterm.appdata.xml</Path>
+            <Path fileType="data">/usr/share/applications/roxterm.desktop</Path>
             <Path fileType="doc">/usr/share/doc</Path>
-            <Path fileType="data">/usr/share/icons</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/roxterm.svg</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
             <Path fileType="man">/usr/share/man</Path>
-            <Path fileType="data">/usr/share/applications</Path>
             <Path fileType="data">/usr/share/roxterm</Path>
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2016-03-08</Date>
+        <Update release="5">
+            <Date>2017-04-09</Date>
             <Version>3.3.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>

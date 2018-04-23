@@ -5,7 +5,7 @@
             <Name>Joshua Strobl</Name>
             <Email>joshua@stroblindustries.com</Email>
         </Packager>
-        <License>GPL-2.0</License>
+        <License>GPL-2.0-only</License>
         <PartOf>desktop</PartOf>
         <Summary xml:lang="en">A tabbed, vte- (GTK+) based terminal emulator</Summary>
         <Description xml:lang="en">A tabbed, vte- (GTK+) based terminal emulator providing advanced features such as multiple tabs with a small footprint.
@@ -30,8 +30,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="6">
-            <Date>2017-10-08</Date>
+        <Update release="7">
+            <Date>2018-04-23</Date>
             <Version>3.3.2</Version>
             <Comment>Packaging update</Comment>
             <Name>Joshua Strobl</Name>

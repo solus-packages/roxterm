@@ -2,96 +2,61 @@
     <Source>
         <Name>roxterm</Name>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-2.0-only</License>
-        <PartOf>desktop</PartOf>
+        <PartOf>system.utils</PartOf>
         <Summary xml:lang="en">A tabbed, vte- (GTK+) based terminal emulator</Summary>
         <Description xml:lang="en">A tabbed, vte- (GTK+) based terminal emulator providing advanced features such as multiple tabs with a small footprint.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>roxterm</Name>
         <Summary xml:lang="en">A tabbed, vte- (GTK+) based terminal emulator</Summary>
         <Description xml:lang="en">A tabbed, vte- (GTK+) based terminal emulator providing advanced features such as multiple tabs with a small footprint.
 </Description>
-        <PartOf>desktop</PartOf>
+        <PartOf>system.utils</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin/roxterm</Path>
             <Path fileType="executable">/usr/bin/roxterm-config</Path>
             <Path fileType="data">/usr/share/appdata/roxterm.appdata.xml</Path>
             <Path fileType="data">/usr/share/applications/roxterm.desktop</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/AUTHORS</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/ChangeLog</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/README</Path>
             <Path fileType="doc">/usr/share/doc/roxterm/en/guide.html</Path>
             <Path fileType="doc">/usr/share/doc/roxterm/en/index.html</Path>
             <Path fileType="doc">/usr/share/doc/roxterm/en/installation.html</Path>
             <Path fileType="doc">/usr/share/doc/roxterm/en/news.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/es/guide.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/es/index.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/es/installation.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/es/news.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/fr/guide.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/fr/index.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/fr/installation.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/fr/news.html</Path>
+            <Path fileType="doc">/usr/share/doc/roxterm/index.html</Path>
+            <Path fileType="doc">/usr/share/doc/roxterm/index.php</Path>
+            <Path fileType="doc">/usr/share/doc/roxterm/lib/favicon.ico</Path>
             <Path fileType="doc">/usr/share/doc/roxterm/lib/header.png</Path>
             <Path fileType="doc">/usr/share/doc/roxterm/lib/logo_text.png</Path>
+            <Path fileType="doc">/usr/share/doc/roxterm/lib/logo_text.xcf</Path>
             <Path fileType="doc">/usr/share/doc/roxterm/lib/logo_text_only.png</Path>
             <Path fileType="doc">/usr/share/doc/roxterm/lib/roxterm.css</Path>
             <Path fileType="doc">/usr/share/doc/roxterm/lib/roxterm_ie.css</Path>
             <Path fileType="doc">/usr/share/doc/roxterm/lib/roxterm_logo.png</Path>
+            <Path fileType="doc">/usr/share/doc/roxterm/lib/screenshot1.png</Path>
+            <Path fileType="doc">/usr/share/doc/roxterm/lib/screenshot2.png</Path>
             <Path fileType="doc">/usr/share/doc/roxterm/lib/sprites.png</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/pt</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/pt_BR/guide.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/pt_BR/index.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/pt_BR/installation.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/pt_BR/news.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/ru/guide.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/ru/index.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/ru/installation.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/ru/news.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/uk/guide.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/uk/index.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/uk/installation.html</Path>
-            <Path fileType="doc">/usr/share/doc/roxterm/uk/news.html</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/roxterm.svg</Path>
-            <Path fileType="localedata">/usr/share/locale/es/LC_MESSAGES/roxterm.mo</Path>
-            <Path fileType="localedata">/usr/share/locale/fr/LC_MESSAGES/roxterm.mo</Path>
-            <Path fileType="localedata">/usr/share/locale/pt/LC_MESSAGES/roxterm.mo</Path>
-            <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/roxterm.mo</Path>
-            <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/roxterm.mo</Path>
-            <Path fileType="localedata">/usr/share/locale/uk/LC_MESSAGES/roxterm.mo</Path>
-            <Path fileType="man">/usr/share/man/es/man1/roxterm-config.1</Path>
-            <Path fileType="man">/usr/share/man/es/man1/roxterm.1</Path>
-            <Path fileType="man">/usr/share/man/fr/man1/roxterm-config.1</Path>
-            <Path fileType="man">/usr/share/man/fr/man1/roxterm.1</Path>
             <Path fileType="man">/usr/share/man/man1/roxterm-config.1</Path>
             <Path fileType="man">/usr/share/man/man1/roxterm.1</Path>
-            <Path fileType="man">/usr/share/man/pt/man1/roxterm-config.1</Path>
-            <Path fileType="man">/usr/share/man/pt/man1/roxterm.1</Path>
-            <Path fileType="man">/usr/share/man/pt_BR/man1/roxterm-config.1</Path>
-            <Path fileType="man">/usr/share/man/pt_BR/man1/roxterm.1</Path>
-            <Path fileType="man">/usr/share/man/ru/man1/roxterm-config.1</Path>
-            <Path fileType="man">/usr/share/man/ru/man1/roxterm.1</Path>
-            <Path fileType="man">/usr/share/man/uk/man1/roxterm-config.1</Path>
-            <Path fileType="man">/usr/share/man/uk/man1/roxterm.1</Path>
             <Path fileType="data">/usr/share/roxterm/Config/Colours/GTK</Path>
+            <Path fileType="data">/usr/share/roxterm/Config/Colours/Nocturne</Path>
             <Path fileType="data">/usr/share/roxterm/Config/Colours/Tango</Path>
             <Path fileType="data">/usr/share/roxterm/Config/Shortcuts/Default</Path>
             <Path fileType="data">/usr/share/roxterm/roxterm-config.ui</Path>
         </Files>
     </Package>
     <History>
-        <Update release="8">
-            <Date>2018-07-29</Date>
-            <Version>3.3.2</Version>
+        <Update release="9">
+            <Date>2019-04-20</Date>
+            <Version>3.7.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>

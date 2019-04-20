@@ -1,31 +1,29 @@
 name       : roxterm
-version    : 3.3.2
-release    : 8
+version    : 3.7.3
+release    : 9
 source     :
-    - http://freefr.dl.sourceforge.net/project/roxterm/roxterm/3.3.2/roxterm-3.3.2.tar.xz : 33501d698971fe80e2756104ffa5541aff23f0ae2b718464006d912ac93c506e
+    - https://github.com/realh/roxterm/archive/3.7.3.tar.gz : 59b1ab781477a712b4509dac812931bff3c2bb7a9a82435f43430bede5cdca13
 license    : GPL-2.0-only
-component  : desktop
+component  : system.utils
 summary    : A tabbed, vte- (GTK+) based terminal emulator
 description: |
     A tabbed, vte- (GTK+) based terminal emulator providing advanced features such as multiple tabs with a small footprint.
 builddeps  :
+    - pkgconfig(ImageMagick)
     - pkgconfig(dbus-1)
     - pkgconfig(dbus-glib-1)
-    - pkgconfig(gmodule-2.0)
-    - pkgconfig(ImageMagick)
+    - pkgconfig(gtk+-3.0)
     - pkgconfig(librsvg-2.0)
     - pkgconfig(python-2.7)
-    - pkgconfig(sm)
     - pkgconfig(vte-2.91)
-    - pkgconfig(x11)
     - docbook-xml
     - python-lockfile
     - itstool
     - po4a
     - xmlto
 setup      : |
-    python mscript.py configure --prefix="/usr"
+    %cmake .
 build      : |
-    python mscript.py build
+    %make
 install    : |
-    python mscript.py install --destdir="$installdir"
+    %make_install

@@ -1,8 +1,8 @@
 name       : roxterm
-version    : 3.8.1
-release    : 10
+version    : 3.8.4
+release    : 11
 source     :
-    - https://github.com/realh/roxterm/archive/3.8.1.tar.gz : 7ff750f197d8cf8d23d3545d569e07df26f40d58ace81e0b4ad2e4fffe41d155
+    - https://github.com/realh/roxterm/archive/3.8.4.tar.gz : 9424008c2db201c1a2664cb02c1932c28fae4a2ee5bec30b40e29c2079094933
 license    : GPL-2.0-only
 component  : system.utils
 summary    : A tabbed, vte- (GTK+) based terminal emulator

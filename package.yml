@@ -1,23 +1,19 @@
 name       : roxterm
-version    : 3.8.4
-release    : 11
+version    : 3.9.4
+release    : 12
 source     :
-    - https://github.com/realh/roxterm/archive/3.8.4.tar.gz : 9424008c2db201c1a2664cb02c1932c28fae4a2ee5bec30b40e29c2079094933
-license    : GPL-2.0-only
+    - https://github.com/realh/roxterm/archive/3.9.4.tar.gz : ecd1f47508a92b21bc13107dd413ea6c9ee7ee1a8170e137b88cecd264974db4
+homepage   : https://realh.github.io/roxterm/en/index.html
+license    : GPL-2.0-or-later
 component  : system.utils
-summary    : A tabbed, vte- (GTK+) based terminal emulator
+summary    : A tabbed, VTE-based terminal emulator
 description: |
-    A tabbed, vte- (GTK+) based terminal emulator providing advanced features such as multiple tabs with a small footprint.
+    ROXTerm is a terminal emulator intended to provide similar features to gnome-terminal, based on the same VTE library. It was originally designed to have a smaller footprint and quicker start-up time by not using the Gnome libraries and by using a separate applet to provide the configuration GUI, but thanks to all the features it's acquired over the years ROXTerm can probably now be accused of bloat. However, it is more configurable than gnome-terminal and aimed more at "power" users who make heavy use of terminals.
 builddeps  :
     - pkgconfig(ImageMagick)
-    - pkgconfig(dbus-1)
     - pkgconfig(dbus-glib-1)
-    - pkgconfig(gtk+-3.0)
     - pkgconfig(librsvg-2.0)
-    - pkgconfig(python-2.7)
     - pkgconfig(vte-2.91)
-    - docbook-xml
-    - python-lockfile
     - itstool
     - po4a
     - xmlto
